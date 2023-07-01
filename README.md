@@ -7,7 +7,7 @@
 
 ## Resumen
 1. Se han implementado las rotaciones necesarias para el algoritmo de balanceo del Árbol AVL, siguiendo los conceptos enseñados en la teoría. A continuación se presentan los 5 casos que se consideran dependiendo de los factores de balanceo (bf) de los nodos:
-    * Dependiendo de los factores de balanceo ***(bf)*** se tienen 5 casos:
+    * Dependiendo de los factores de balanceo (bf) se tienen 5 casos:
         1. Si el factor de balanceo (bf) del nodo padre es mayor que 1 y el del hijo es igual a 1, se realiza una rotación simple a la izquierda (RSL) en el nodo padre para restablecer el equilibrio.
         2. Si el factor de balanceo (bf) del nodo padre es menor que -1 y el del hijo es igual a -1, se realiza una rotación simple a la derecha (RSR) en el nodo padre para restaurar el equilibrio.
         3. Si el factor de balanceo (bf) del nodo padre es mayor que 1 y el del hijo es -1, se realiza una rotación simple a la derecha (RSR) en el hijo y luego una rotación simple a la izquierda (RSL) en el nodo padre para lograr el balanceo.
