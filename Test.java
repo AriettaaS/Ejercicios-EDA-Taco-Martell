@@ -8,7 +8,7 @@ public class Test {
         int[] elements = { 100, 200, 300, 400, 500, 50, 25, 350, 375, 360, 355, 150, 175, 120, 190 };
         try {
             // adding elements to the tree
-            System.out.println("Adding elements to the tree");
+            System.out.println("Añadiendo elementos para el arbol");
             for (int element : elements) {
                 bigAvl.insert(element);
             } 
